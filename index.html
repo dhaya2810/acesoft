@@ -2,43 +2,249 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Acesoft | Mobile App Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesoft | Mobile App Development Experts</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-
-<header>
-    <h1>Acesoft</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="ios.html">iOS Development</a>
-        <a href="android.html">Android Development</a>
-        <a href="contact.html">Contact</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">A</div>
+                    <span>Ace<span class="highlight">soft</span></span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="ios.html">iOS Development</a>
+                    <a href="android.html">Android Development</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="contact.html#consultation" class="btn-primary">Get Free Consultation</a>
+                </div>
+                
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
     </nav>
-</header>
 
-<section class="hero">
-    <img src="images/mobile.jpg" alt="Mobile App Development">
-    <div>
-        <h2>Professional Mobile App Development</h2>
-        <p>We build secure, scalable, and high-performance mobile applications for iOS and Android platforms.</p>
-    </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transform Your Vision Into <span class="highlight">Powerful Mobile Apps</span></h1>
+                <p class="hero-subtitle">Acesoft creates exceptional iOS and Android applications that drive business growth, engage users, and deliver outstanding performance.</p>
+                <div class="hero-buttons">
+                    <a href="ios.html" class="btn-primary btn-large">
+                        <i class="fab fa-apple"></i> iOS Development
+                    </a>
+                    <a href="android.html" class="btn-secondary btn-large">
+                        <i class="fab fa-android"></i> Android Development
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/mobile.jpg" alt="Mobile App Development" class="hero-img">
+                <div class="floating-icons">
+                    <div class="icon-circle apple">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <div class="icon-circle android">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="icon-circle react">
+                        <i class="fab fa-react"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="content">
-    <h3>Why Choose Acesoft?</h3>
-    <ul>
-        <li>Expert iOS & Android Developers</li>
-        <li>User-Centric UI/UX Design</li>
-        <li>Enterprise-Grade Security</li>
-        <li>End-to-End App Development</li>
-    </ul>
-</section>
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Mobile Development <span class="highlight">Services</span></h2>
+                <p class="section-subtitle">Comprehensive solutions for startups and enterprises</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/ios.jpg" alt="iOS Development">
+                        <div class="icon-overlay">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                    </div>
+                    <h3>iOS App Development</h3>
+                    <p>Native iOS applications using Swift and SwiftUI, optimized for all iPhone and iPad devices with cutting-edge features.</p>
+                    <a href="ios.html" class="service-link">
+                        Explore Services <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/android.jpg" alt="Android Development">
+                        <div class="icon-overlay">
+                            <i class="fab fa-android"></i>
+                        </div>
+                    </div>
+                    <h3>Android App Development</h3>
+                    <p>Custom Android apps with Kotlin and Java, designed for diverse devices and screen sizes with Material Design.</p>
+                    <a href="android.html" class="service-link">
+                        Explore Services <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/off.jpg" alt="Cross Platform">
+                        <div class="icon-overlay">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Cross-Platform Solutions</h3>
+                    <p>Efficient solutions using React Native and Flutter for faster time-to-market and consistent user experiences.</p>
+                    <a href="contact.html" class="service-link">
+                        Discuss Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <p>© 2026 Acesoft. All Rights Reserved.</p>
-</footer>
-<script src="js/script.js"></script>
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-label">Mobile Apps Delivered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">Client Satisfaction Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">Expert Developers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Development <span class="highlight">Process</span></h2>
+                <p class="section-subtitle">A structured approach ensuring quality and timely delivery</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Discovery & Planning</h3>
+                    <p>We analyze requirements, define goals, and create a detailed project roadmap with milestones.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive user interfaces and engaging user experiences with prototype validation.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Development</h3>
+                    <p>Agile development with regular updates, code reviews, and milestone deliveries.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Testing & Launch</h3>
+                    <p>Rigorous testing across devices followed by deployment to app stores with analytics setup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Bring Your App Idea to Life?</h2>
+                <p>Schedule a free consultation with our experts to discuss your project requirements and get a personalized quote.</p>
+                <a href="contact.html" class="btn-primary btn-large">
+                    <i class="fas fa-calendar-alt"></i> Schedule Free Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">A</div>
+                        <span>Ace<span class="highlight">soft</span></span>
+                    </a>
+                    <p class="footer-description">Specializing in iOS and Android app development since 2015. We transform ideas into powerful mobile experiences.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="ios.html">iOS App Development</a></li>
+                        <li><a href="android.html">Android App Development</a></li>
+                        <li><a href="contact.html">App Prototyping</a></li>
+                        <li><a href="contact.html">App Maintenance</a></li>
+                        <li><a href="contact.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="ios.html">iOS Development</a></li>
+                        <li><a href="android.html">Android Development</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@acesoft.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Acesoft Mobile App Development. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
