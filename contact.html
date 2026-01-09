@@ -2,37 +2,311 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us | Acesoft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesoft | Contact Mobile App Development Experts</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-
-<header>
-    <h1>Acesoft</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="ios.html">iOS Development</a>
-        <a href="android.html">Android Development</a>
-        <a href="contact.html">Contact</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">A</div>
+                    <span>Ace<span class="highlight">soft</span></span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="ios.html">iOS Development</a>
+                    <a href="android.html">Android Development</a>
+                    <a href="contact.html" class="active">Contact Us</a>
+                    <a href="#consultation" class="btn-primary">Get Free Consultation</a>
+                </div>
+                
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
     </nav>
-</header>
 
-<section class="content">
-    <h2>Contact Us</h2>
-    <p>Let’s discuss your mobile application idea.</p>
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>Let's Build Something <span class="highlight">Amazing</span> Together</h1>
+                <p>Get in touch with our mobile app development experts to discuss your project, request a quote, or schedule a consultation.</p>
+                
+                <div class="contact-info-grid">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+1 (555) 123-4567</p>
+                        <a href="tel:+15551234567" class="contact-link">Call Now</a>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@acesoft.com</p>
+                        <a href="mailto:info@acesoft.com" class="contact-link">Send Email</a>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Tech Street, Silicon Valley, CA</p>
+                        <a href="#" class="contact-link">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-hero-image">
+                <img src="images/off.jpg" alt="Contact Acesoft" class="contact-img">
+            </div>
+        </div>
+    </section>
 
-    <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+    <!-- Contact Form -->
+    <section class="contact-form-section" id="consultation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get Your <span class="highlight">Free Consultation</span></h2>
+                <p class="section-subtitle">Fill out the form below and our experts will contact you within 24 hours</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company" placeholder="Enter your company name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="platform">Platform Interest *</label>
+                        <select id="platform" name="platform" required>
+                            <option value="">Select platform</option>
+                            <option value="ios">iOS App Development</option>
+                            <option value="android">Android App Development</option>
+                            <option value="both">Both iOS & Android</option>
+                            <option value="cross-platform">Cross-Platform</option>
+                            <option value="not-sure">Not Sure Yet</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Project Details *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your project, timeline, and budget"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                
+                <div class="form-sidebar">
+                    <h3>What Happens Next?</h3>
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Initial Consultation</h4>
+                            <p>We'll schedule a call to understand your requirements and objectives.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Proposal & Quote</h4>
+                            <p>We'll provide a detailed project proposal with timeline and cost estimate.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Project Kickoff</h4>
+                            <p>Once approved, we'll start your project with a dedicated development team.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-alternative">
+                        <h4>Prefer to talk?</h4>
+                        <p>Call us directly at <strong>+1 (555) 123-4567</strong></p>
+                        <p>Or email us at <strong>info@acesoft.com</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <p>© 2026 Acesoft. All Rights Reserved.</p>
-</footer>
-<script src="js/script.js"></script>
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                <p class="section-subtitle">Find answers to common questions about our mobile app development services</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does it take to develop a mobile app?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The timeline varies based on complexity, features, and platform. A basic app takes 2-3 months, while more complex applications can take 4-6 months or longer. We'll provide a detailed timeline during our consultation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How much does mobile app development cost?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Costs depend on the app's complexity, features, design requirements, and platforms. Basic apps start from $15,000, while more complex enterprise solutions can range from $50,000 to $150,000+. Contact us for a detailed quote.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you provide post-launch maintenance?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer comprehensive maintenance packages including bug fixes, updates for new OS versions, performance optimization, and feature enhancements to keep your app running smoothly.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can you help with app store submission?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We handle the complete app store submission process for both Apple App Store and Google Play Store, including compliance with guidelines, metadata optimization, and launch strategy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Location</h3>
+                        <p>123 Tech Street, Silicon Valley, CA</p>
+                        <a href="#" class="btn-secondary">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="office-hours">
+                    <h3>Office Hours</h3>
+                    <div class="hours-list">
+                        <div class="hour-item">
+                            <span>Monday - Friday</span>
+                            <span>9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hour-item">
+                            <span>Saturday</span>
+                            <span>10:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hour-item">
+                            <span>Sunday</span>
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-contact">
+                        <h4>Emergency Support</h4>
+                        <p>For urgent matters outside office hours, call: <strong>+1 (555) 987-6543</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">A</div>
+                        <span>Ace<span class="highlight">soft</span></span>
+                    </a>
+                    <p class="footer-description">Specializing in iOS and Android app development since 2015. We transform ideas into powerful mobile experiences.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="ios.html">iOS App Development</a></li>
+                        <li><a href="android.html">Android App Development</a></li>
+                        <li><a href="contact.html">App Prototyping</a></li>
+                        <li><a href="contact.html">App Maintenance</a></li>
+                        <li><a href="contact.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="ios.html">iOS Development</a></li>
+                        <li><a href="android.html">Android Development</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@acesoft.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Acesoft Mobile App Development. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
