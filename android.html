@@ -2,43 +2,244 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Android App Development | Acesoft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesoft | Android App Development Specialists</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-
-<header>
-    <h1>Acesoft</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="ios.html">iOS Development</a>
-        <a href="android.html">Android Development</a>
-        <a href="contact.html">Contact</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">A</div>
+                    <span>Ace<span class="highlight">soft</span></span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="ios.html">iOS Development</a>
+                    <a href="android.html" class="active">Android Development</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="contact.html#consultation" class="btn-primary">Get Free Consultation</a>
+                </div>
+                
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
     </nav>
-</header>
 
-<section class="hero">
-    <img src="images/android.jpg" alt="Android App Development">
-    <div>
-        <h2>Android App Development</h2>
-        <p>We build robust and scalable Android applications tailored for performance and user engagement.</p>
-    </div>
-</section>
+    <!-- Android Hero -->
+    <section class="platform-hero android-hero">
+        <div class="container">
+            <div class="platform-hero-content">
+                <h1>Android App <span class="highlight">Development</span></h1>
+                <p>Build scalable, high-performance Android applications that work seamlessly across thousands of devices and reach billions of users worldwide using Kotlin and modern Android architectures.</p>
+                <div class="platform-badges">
+                    <span class="badge"><i class="fab fa-kotlin"></i> Kotlin</span>
+                    <span class="badge"><i class="fab fa-java"></i> Java</span>
+                    <span class="badge"><i class="fas fa-layer-group"></i> Jetpack</span>
+                    <span class="badge"><i class="fas fa-fire"></i> Firebase</span>
+                </div>
+                <a href="contact.html" class="btn-primary btn-large">
+                    <i class="fab fa-android"></i> Start Android Project
+                </a>
+            </div>
+            <div class="platform-hero-image">
+                <img src="images/android.jpg" alt="Android App Development" class="platform-img">
+                <div class="device-mockup">
+                    <div class="android-screen">
+                        <div class="screen-content">
+                            <i class="fab fa-android"></i>
+                            <h4>Acesoft Android</h4>
+                            <p>Premium Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="content">
-    <h3>Our Android Expertise</h3>
-    <ul>
-        <li>Native Android Development (Java/Kotlin)</li>
-        <li>Custom Business Applications</li>
-        <li>Secure & Scalable Architecture</li>
-        <li>Play Store Publishing</li>
-    </ul>
-</section>
+    <!-- Android Services -->
+    <section class="platform-services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Android Development <span class="highlight">Expertise</span></h2>
+                <p class="section-subtitle">Robust Android solutions using modern technologies</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-circle android-icon">
+                            <i class="fab fa-kotlin"></i>
+                        </div>
+                    </div>
+                    <h3>Kotlin & Java Development</h3>
+                    <p>Modern Android development using Kotlin and Java for high-performance, maintainable applications with clean architecture.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-circle android-icon">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                    </div>
+                    <h3>Material Design UI/UX</h3>
+                    <p>Beautiful interfaces following Google's Material Design guidelines for consistent and engaging user experiences.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-circle android-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Android App Migration</h3>
+                    <p>Upgrade legacy Android apps to modern architectures and newer Android versions with enhanced features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <p>© 2026 Acesoft. All Rights Reserved.</p>
-</footer>
-<script src="js/script.js"></script>
+    <!-- Android Features -->
+    <section class="platform-features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Device Compatibility</h3>
+                    <p>Optimized for thousands of Android devices with different screen sizes and specifications.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performance Optimized</h3>
+                    <p>Fast, responsive applications with efficient memory management and battery optimization.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Play Store Ready</h3>
+                    <p>Complete Google Play Store submission with compliance to all guidelines and requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Android Process -->
+    <section class="platform-process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Android Development <span class="highlight">Process</span></h2>
+                <p class="section-subtitle">Structured methodology for building quality Android apps</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Requirements Analysis</h3>
+                        <p>Analyze business goals, target audience, and technical requirements for effective Android strategy.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive interfaces following Material Design principles for consistent experiences.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Development</h3>
+                        <p>Using Kotlin and modern Android architectures, we build scalable applications with clean code.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Android CTA -->
+    <section class="platform-cta">
+        <div class="container">
+            <h2>Ready to Build Your Android App?</h2>
+            <p>Let's create an Android application that stands out in the Google Play Store</p>
+            <a href="contact.html" class="btn-primary btn-large">
+                <i class="fas fa-calendar-alt"></i> Schedule Android Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">A</div>
+                        <span>Ace<span class="highlight">soft</span></span>
+                    </a>
+                    <p class="footer-description">Specializing in iOS and Android app development since 2015. We transform ideas into powerful mobile experiences.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="ios.html">iOS App Development</a></li>
+                        <li><a href="android.html">Android App Development</a></li>
+                        <li><a href="contact.html">App Prototyping</a></li>
+                        <li><a href="contact.html">App Maintenance</a></li>
+                        <li><a href="contact.html">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="ios.html">iOS Development</a></li>
+                        <li><a href="android.html">Android Development</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@acesoft.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Acesoft Mobile App Development. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
